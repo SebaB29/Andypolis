@@ -12,6 +12,8 @@ Sebastian Brizuela --> [Github](https://github.com/SebaB29)
 Andypolis es un juego de estrategia de dos jugadores y por turnos. Ambos jugadores tendrán que cumplir ciertos objetivos antes que el rival para ganar, durante los turnos van a poder desplazarse por un mapa recolectando recursos que le permitirán construir estructuras que le ayudarán a alcanzar dichos objetivos, además podrán conseguir otro tipo de recursos que le permitirán sabotear el progreso del otro jugador.
 </p>
 
+Para ver más detalles del juego ver el [Enunciado](Enunciado.pdf).
+
 ## Compilacion
 <p align="justify">
 Una vez descomprimido el zip, posicionado en el directorio TP3, se debera correr el comando "<b>make main</b>" o "<b>make</b>". Este comando compilara el programa.
