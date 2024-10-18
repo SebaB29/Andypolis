@@ -5,7 +5,7 @@ Trabajo Práctico de la materia Algoritmos y Programación II (95.14)
 ## 👥 Integrantes  
 | Nombre                  | Github                                                  |
 |-------------------------|---------------------------------------------------------|
-| Sebastián Brizuela      | -                                                       |
+| Sebastián Brizuela      | [SebaB29](https://github.com/SebaB29)                   |
 | Brayan Saiago           | [brayans22](https://github.com/brayans22)               |
 | Ezequiel Lasalle        | [EzequielLassalle](https://github.com/EzequielLassalle) |
 | Franco Losardo          | [flosardo](https://github.com/flosardo)                 |
