@@ -53,7 +53,7 @@ Andypolis/
 ## ⚙️ Compilation & Execution
 1. Clone the repository:
   ```bash
-  git clone [https://github.com/SebaB29/Andypolis.git](https://github.com/SebaB29/Andypolis.git)
+  git clone git@github.com:SebaB29/Andypolis.git
   cd Andypolis
   ```
 2. Compile the project:
