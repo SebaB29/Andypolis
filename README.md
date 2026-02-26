@@ -1,8 +1,95 @@
 # 🎮 Andypolis
 
-Trabajo Práctico de la materia Algoritmos y Programación II (95.14)
+A turn-based strategy game for two players, developed as a final project for **Algorithms and Programming II (95.14)** at FIUBA. Players compete to fulfill objectives by navigating a grid, collecting resources, and constructing buildings while strategically sabotaging their opponent.
 
-## 👥 Integrantes  
+
+
+# 📸 Overview
+Andypolis simulates a city-building economy where every move matters. From resource management to map positioning, the game challenges players to optimize their turns to reach victory conditions before their rival.
+
+# 📍 Table of Contents
+- [📝 Description](#-description)
+  - [🧩 Key Features](#-key-features)
+  - [🧱 Project Structure](#-project-structure)
+  - [🛠️ Technologies](#️-technologies)
+- [🚀 Getting Started](#-getting-started)
+  - [📋 Prerequisites](#-prerequisites)
+  - [⚙️ Compilation & Execution](#️-compilation--execution)
+- [🎮 Gameplay](#-gameplay)
+- [🤝 Contributing](#-contributing)
+- [👥 Team](#-team)
+- [📄 License](#-license)
+
+---
+
+# 📝 Description
+The project focuses on **Object-Oriented Programming (OOP)** in C++, emphasizing memory management and the implementation of custom data structures to handle the map, player inventories, and building types.
+
+## 🧩 Key Features
+- **Grid-Based Navigation:** A dynamic map loaded from text files where players move and interact.
+- **Resource Economy:** Collect materials (wood, stone, metal) to fund construction.
+- **Building System:** Unique properties for each structure type.
+- **Strategic Sabotage:** Specialized resources to hinder the opponent's progress.
+- **Objective-Driven:** Multiple paths to victory based on specific game goals.
+
+## 🧱 Project Structure
+```text
+Andypolis/
+├── archivos_de_texto/ # Game data (materials, map, buildings, locations)
+├── include/           # Header files (.h / .hpp)
+├── src/               # Implementation files (.cpp)
+├── Makefile           # Build automation script
+├── Enunciado.pdf      # Detailed game rules and requirements
+└── main.cpp           # Application entry point
+```
+
+## 🛠️ Technologies
+* Language: C++
+* Build Tool: GNU Make
+* Memory Debugging: Valgrind
+* Standard: C++11 or higher
+
+# 🚀 Getting Started
+## 📋 Prerequisites
+* A C++ compiler (GCC/G++ recommended).
+* `make` utility installed.
+* (Optional) `valgrind` for memory leak checks.
+
+## ⚙️ Compilation & Execution
+1. Clone the repository:
+  ```bash
+  git clone [https://github.com/SebaB29/Andypolis.git](https://github.com/SebaB29/Andypolis.git)
+  cd Andypolis
+  ```
+2. Compile the project:
+  ```bash
+  make main
+  ```
+3. Run the game:
+  ```bash
+  ./Andypolis
+  ```
+4. Run with Valgrind (Memory Check):
+  ```bash
+  make valgrind
+  ```
+⚠️ Important: Ensure the folder `archivos_de_texto/` contains the files `materiales.txt`, `ubicaciones.txt`, `edificios.txt`, and `mapa.txt` for the game to initialize correctly.
+
+# 🎮 Gameplay
+Players take turns performing actions:
+* **Move**: Navigate through the coordinates of the map.
+* **Build**: Spend collected materials to place structures.
+* **Collect**: Gather spawned resources from the grid.
+* **Attack**: Use sabotage mechanics to gain an advantage.
+
+# 🤝 Contributing
+1. Fork the project.
+2. Create your Feature Branch (git checkout -b feature/AmazingFeature).
+3. Commit your changes (git commit -m 'Add some AmazingFeature').
+4. Push to the Branch (git push origin feature/AmazingFeature).
+5. Open a Pull Request.
+
+# 👥 Team
 | Nombre                  | Github                                                  |
 |-------------------------|---------------------------------------------------------|
 | Sebastián Brizuela      | [SebaB29](https://github.com/SebaB29)                   |
@@ -10,26 +97,5 @@ Trabajo Práctico de la materia Algoritmos y Programación II (95.14)
 | Ezequiel Lasalle        | [EzequielLassalle](https://github.com/EzequielLassalle) |
 | Franco Losardo          | [flosardo](https://github.com/flosardo)                 |
 
-## 📜 Descripción  
-<p align="justify">
-Andypolis es un juego de estrategia de dos jugadores y por turnos. Ambos jugadores tendrán que cumplir ciertos objetivos antes que el rival para ganar. Durante los turnos, podrán desplazarse por un mapa recolectando recursos que les permitirán construir estructuras para alcanzar dichos objetivos. Además, podrán conseguir otros recursos que les permitirán sabotear el progreso del otro jugador.
-</p>
-
-Para ver más detalles del juego, consulta el [Enunciado](Enunciado.pdf).
-
-## 🔧 Compilación  
-<p align="justify">
-Una vez descomprimido el zip, posicionado en el directorio TP3, se deberá correr el comando "<b>make main</b>" o "<b>make</b>". Este comando compilará el programa. 
-En caso de querer ejecutarlo con Valgrind, primero se deberá compilar de la forma especificada anteriormente y luego correrlo con el comando "<b>make valgrind</b>". 
-Si solo deseas compilarlo, puedes hacerlo con "<b>make</b>" o "<b>make main</b>" y ejecutar el programa con "<b>./Andypolis</b>".
-
-Los archivos `materiales.txt`, `ubicaciones.txt`, `edificios.txt` y `mapa.txt` deben estar dentro de la carpeta `archivos_de_texto` para el correcto funcionamiento del programa.
-</p>
-
-## ⚠️ Aclaraciones  
-<p align="justify">
-Se espera que todos los archivos estén correctamente formados. Además, se espera que los datos que ingrese el usuario sean del tipo de dato pedido; en caso contrario, el programa tendrá un comportamiento indefinido.
-</p>
-
-## 📄 Licencia  
-Este proyecto está bajo la licencia MIT. Para más detalles, consulta el archivo [LICENSE](./LICENSE).
+# 📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
