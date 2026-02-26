@@ -2,11 +2,6 @@
 
 A turn-based strategy game for two players, developed as a final project for **Algorithms and Programming II (95.14)** at FIUBA. Players compete to fulfill objectives by navigating a grid, collecting resources, and constructing buildings while strategically sabotaging their opponent.
 
-
-
-# 📸 Overview
-Andypolis simulates a city-building economy where every move matters. From resource management to map positioning, the game challenges players to optimize their turns to reach victory conditions before their rival.
-
 # 📍 Table of Contents
 - [📝 Description](#-description)
   - [🧩 Key Features](#-key-features)
